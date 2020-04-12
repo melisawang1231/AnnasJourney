@@ -10,7 +10,7 @@ if(global.weapon_num > 0){
 }
 
 var p = irandom(50);
-if(p == 8){
+if(p == 9){
 	if(global.shield_num == 0){
 		var bullet = instance_create_layer(x,y,"Instances",oEnemyBullet);
 	    bullet.hspeed = -1 - random(5);
