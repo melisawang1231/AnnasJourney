@@ -11,6 +11,8 @@ ys = 0;
 
 WALKSP = 8;
 JUMPSP = 14;
+direct = LEFT;
+///global.facing = STAND
 
 global.shield_num = 0;
 global.weapon_num = 0;

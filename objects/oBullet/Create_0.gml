@@ -1,2 +1,6 @@
 /// @description set speed
-hspeed += 6;
+if(oAnna.direct == LEFT) {
+	hspeed -= 10;
+}else {
+	hspeed += 10;
+}
