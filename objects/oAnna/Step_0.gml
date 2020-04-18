@@ -30,8 +30,8 @@ else{
 
 var xs = left_n1_right_p1 * WALKSP;
 
-if( place_meeting(x + xs, y, oBlock) ){
-	while( !place_meeting(x + left_n1_right_p1, y, oBlock)){
+if( !place_free(x + xs, y) ){
+	while( place_free(x + left_n1_right_p1, y)){
         x = x + left_n1_right_p1;
     }
     xs = 0;
@@ -40,7 +40,7 @@ if( place_meeting(x + xs, y, oBlock) ){
 x = x + xs;
 
 var canJump = 0;
-if( place_meeting(x, y+0.5, oBlock) ){
+if( !place_free(x, y + 1) ){
     canJump = 1;
 }
 
@@ -49,8 +49,8 @@ if( canJump && key_jump ){
 }
 
 ys = ys + gr;
-if( place_meeting(x, y + ys, oBlock) ){
-	while( !place_meeting(x, y + sign(ys), oBlock)){
+if( !place_free(x, y + ys) ){
+	while( place_free(x, y + sign(ys))){
         y = y + sign(ys);
     }
 	ys = 0;
