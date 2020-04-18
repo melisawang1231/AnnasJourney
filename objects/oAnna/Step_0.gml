@@ -83,7 +83,8 @@ if(facing == STAND && inAir == INAIR_NOT){
 	sprite_index = sAnna;
 }
 
-
+if(y > room_height)
+	room_goto(rGameOver);
 
 
 
