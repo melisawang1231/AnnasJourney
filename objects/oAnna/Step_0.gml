@@ -12,20 +12,17 @@ if(place_meeting(x, y, oDoor) && global.hasKey == 1 && open_door){
 }
 
 left_n1_right_p1 = key_right - key_left;
-if(key_left){
-	direct = LEFT;
-}
-
-direct = RIGHT;
-
 
 if(left_n1_right_p1 == -1){
 	facing = LEFT;
+	direct = LEFT;
 } else if(left_n1_right_p1 == 1){
 	facing = RIGHT;
+	direct = RIGHT;
 }
 else{
 	facing = STAND;
+	direct = RIGHT;
 }
 
 var xs = left_n1_right_p1 * WALKSP;
