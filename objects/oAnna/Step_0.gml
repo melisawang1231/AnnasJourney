@@ -34,6 +34,13 @@ if( !place_free(x + xs, y) ){
     xs = 0;
 }
 
+if(x + xs < 0 || x + xs > room_width) {
+	xs = 0;
+}
+if(y + ys < 0) {
+	ys = 0;
+}
+	
 x = x + xs;
 
 var canJump = 0;
