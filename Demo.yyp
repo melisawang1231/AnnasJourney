@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "4a377970-d383-40d4-877f-3f3742b4fa79",
+            "Value": {
+                "id": "dfd84961-a926-4824-840e-1a4d288942db",
+                "resourcePath": "sprites\/sbg2\/sbg2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ecaa02d-ae83-42ba-92aa-e2c778f12e08",
             "Value": {
                 "id": "d45e9eae-5260-4ef8-921b-4d39217abb79",
