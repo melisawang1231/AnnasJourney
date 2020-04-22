@@ -35,7 +35,19 @@ if(open_box){
 			
 	    // find the BOSS
 		case 2:
-			instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS);
+		    var checkRoom = room_get_name(room);
+		    switch(checkRoom){
+				case "rLevel1":
+				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS1);
+				case "rLevel2":
+				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS2);
+				case "rLevel3":
+				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS3);
+				case "rLevel4":
+				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS4);
+				case "rLevel5":
+				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
+			}
 			randomSelect[2] -= 1;
 		    break;
 			
