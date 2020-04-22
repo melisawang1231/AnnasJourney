@@ -9,7 +9,9 @@
         "0f19d32d-5f3c-47e4-9675-c7c6d4700435",
         "6b801bfb-39ce-426e-b57b-2afc3f50c18e",
         "2b5c5c9e-576c-4b9d-a5c6-8220cfc9f629",
-        "4a377970-d383-40d4-877f-3f3742b4fa79"
+        "4a377970-d383-40d4-877f-3f3742b4fa79",
+        "57fcd9bf-3f98-4ec5-8927-96ff2bcd4338",
+        "edb21840-2cbc-454d-b1e3-d28ff850f008"
     ],
     "filterType": "GMSprite",
     "folderName": "BG",
