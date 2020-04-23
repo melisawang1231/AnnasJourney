@@ -306,7 +306,11 @@
             "Key": "65127a6f-6407-457f-b7ad-ebc24878e602",
             "Value": {
                 "id": "b49b8321-80cd-427b-b3da-0ddfddad9137",
+<<<<<<< HEAD
                 "resourcePath": "objects\/oUIWinReturn\/oUIWinReturn.yy",
+=======
+                "resourcePath": "objects\\oUIWinReturn\\oUIWinReturn.yy",
+>>>>>>> master
                 "resourceType": "GMObject"
             }
         },
@@ -522,7 +526,11 @@
             "Key": "afbf697f-fb1e-472a-b285-a42d1c3176a4",
             "Value": {
                 "id": "d07f5171-1aa9-44f9-b5e3-4ee01e517798",
+<<<<<<< HEAD
                 "resourcePath": "sprites\/sUIWinReturn\/sUIWinReturn.yy",
+=======
+                "resourcePath": "sprites\\sUIWinReturn\\sUIWinReturn.yy",
+>>>>>>> master
                 "resourceType": "GMSprite"
             }
         },
@@ -731,6 +739,14 @@
             "Value": {
                 "id": "31d738e6-4a2d-4a92-8632-8af79c7fadbf",
                 "resourcePath": "sprites\/sbgWin\/sbgWin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed4a1ed2-f999-4e19-9d08-861e6153c520",
+            "Value": {
+                "id": "31d738e6-4a2d-4a92-8632-8af79c7fadbf",
+                "resourcePath": "sprites\\sbgWin\\sbgWin.yy",
                 "resourceType": "GMSprite"
             }
         },
