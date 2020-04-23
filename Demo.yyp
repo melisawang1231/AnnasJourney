@@ -455,14 +455,6 @@
             }
         },
         {
-            "Key": "99f297c9-7e6c-4309-be7b-8cabde1cf99d",
-            "Value": {
-                "id": "8f9466e7-2abb-4e90-8472-996889b39dc7",
-                "resourcePath": "objects\\oUIwinReturn\\oUIwinReturn.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9ceefe95-e27b-4970-990f-85ae364f053a",
             "Value": {
                 "id": "641e3dcb-211c-4106-a23f-5bc4fa55cf10",
@@ -516,14 +508,6 @@
                 "id": "cfb5ad26-ba4b-4257-b958-4c14eb721c13",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aa30605c-b860-4160-be99-c87707e73b58",
-            "Value": {
-                "id": "cca0567d-fe30-4927-a6a5-08703a4f4d93",
-                "resourcePath": "sprites\\sbgTitle\\sbgTitle.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -756,14 +740,6 @@
                 "id": "009dd316-8395-4989-98a7-c393def839a8",
                 "resourcePath": "objects\/oEnemy\/oEnemy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e7514909-b1ba-413d-9845-0be600b679db",
-            "Value": {
-                "id": "771dc9f1-decc-4bd4-b8ab-01fbb983ff37",
-                "resourcePath": "sprites\\UIwinReturn\\UIwinReturn.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
