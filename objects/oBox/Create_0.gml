@@ -29,8 +29,8 @@ switch(num){
 		        break;
 				
 			case 14:
-		        randomSelect[2] += 4;
-				randomSelect[1] += 3;
+		        randomSelect[2] += 3;
+				randomSelect[1] += 4;
 				randomSelect[0] += 1;
 		        break;
             }

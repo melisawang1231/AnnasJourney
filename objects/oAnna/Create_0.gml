@@ -1,6 +1,6 @@
 /// @description Inits
 
-hp_Anna = 6;
+hp_Anna = 8;
 
 // Gravity on y-axis. ys change/frame
 gr = 0.5;
