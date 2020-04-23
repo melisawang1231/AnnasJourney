@@ -19,11 +19,10 @@ if(p == 8){
 // create BossBullet
 var q = irandom(100);
 if(q == 8){
-	if(global.shield_num < 1){
-		var bullet = instance_create_layer(x,y,"Instances",oBossBullet);
-	    bullet.hspeed = -1 - random(8);
-	}
-	global.shield_num = global.shield_num - 1;
+	
+	var bullet = instance_create_layer(x,y,"Instances",oBossBullet);
+	bullet.hspeed = -1 - random(8);
+
 }
 
 if(distance_to_object(oAnna) < 500) {
