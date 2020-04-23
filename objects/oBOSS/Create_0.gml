@@ -1,3 +1,3 @@
 /// @description Insert description here
-hp_boss = random(10) + 10;
+hp_boss = irandom(10) + 10;
 

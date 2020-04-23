@@ -1,3 +1,3 @@
 /// @description Insert description here
-hp = random(5);
+hp = irandom(5);
 alarm[0] = 0;
