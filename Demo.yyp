@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2eb48384-a2a4-4973-a1c5-73442c307ef7",
+            "Value": {
+                "id": "ed10d9e8-08ad-4a98-9fe2-ea3676e2887e",
+                "resourcePath": "sprites\/sbg4\/sbg4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "301a8a7d-965a-46e6-a64c-4cb8288fecf0",
             "Value": {
                 "id": "8fa89946-ec56-41f0-9fb1-990b6a7dc375",
@@ -218,7 +226,7 @@
             "Key": "4726faba-0654-4be4-8ab1-a720eeca9902",
             "Value": {
                 "id": "5712c283-485b-4dad-b5ea-847fe0445e61",
-                "resourcePath": "sprites\\sBOSS3\\sBOSS3.yy",
+                "resourcePath": "sprites\/sBOSS3\/sBOSS3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -282,7 +290,7 @@
             "Key": "5a858f66-5578-4323-a8a1-22d425c8d4d5",
             "Value": {
                 "id": "375c58d7-4ed8-4ed3-a230-b562c7980bef",
-                "resourcePath": "sprites\\sBOSS5\\sBOSS5.yy",
+                "resourcePath": "sprites\/sBOSS5\/sBOSS5.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -306,7 +314,7 @@
             "Key": "664d2f83-bfc7-4570-8345-5af45bce354a",
             "Value": {
                 "id": "60cce43d-e053-477c-9c56-b81cda259331",
-                "resourcePath": "sprites\\sBOSS1\\sBOSS1.yy",
+                "resourcePath": "sprites\/sBOSS1\/sBOSS1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +370,7 @@
             "Key": "77014835-56d8-4f08-8d95-a9f42491cb4c",
             "Value": {
                 "id": "638e19c0-5516-44cf-aed4-8191123f7914",
-                "resourcePath": "sprites\\sBOSS2\\sBOSS2.yy",
+                "resourcePath": "sprites\/sBOSS2\/sBOSS2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -410,7 +418,7 @@
             "Key": "8f892c09-89db-4e1b-9c5a-c96434fa5f47",
             "Value": {
                 "id": "782725f8-ca29-4c5f-8a1b-6ef2806cd70a",
-                "resourcePath": "objects\\oBOSS4\\oBOSS4.yy",
+                "resourcePath": "objects\/oBOSS4\/oBOSS4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -442,7 +450,7 @@
             "Key": "97f1e9c3-8c95-43f6-83a5-9f6ea7992364",
             "Value": {
                 "id": "0a32f476-1994-4011-8d31-af113ea02c92",
-                "resourcePath": "objects\\oBOSS2\\oBOSS2.yy",
+                "resourcePath": "objects\/oBOSS2\/oBOSS2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "ad787ec6-f25e-4b4f-8dd3-634ce41a1289",
+            "Value": {
+                "id": "a8921570-cb76-4485-9924-e17a7850d09d",
+                "resourcePath": "sprites\/sbg3\/sbg3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1a357db-5a1c-44a1-bfa9-0afaf8e970b3",
             "Value": {
                 "id": "d994ae6c-a213-43e7-9ea3-02e76577ab2c",
@@ -562,7 +578,7 @@
             "Key": "b318df75-401a-49b0-973f-a63ad327e560",
             "Value": {
                 "id": "cd2dbfc2-dd5a-400b-8789-ddfc706c3517",
-                "resourcePath": "objects\\oBOSS3\\oBOSS3.yy",
+                "resourcePath": "objects\/oBOSS3\/oBOSS3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -594,7 +610,7 @@
             "Key": "c4ef99fa-a0c2-4b11-ab98-80e79c02d08e",
             "Value": {
                 "id": "65fe3a31-dbee-4751-bffe-f6a655b4b3bb",
-                "resourcePath": "sprites\\sBOSS4\\sBOSS4.yy",
+                "resourcePath": "sprites\/sBOSS4\/sBOSS4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -690,7 +706,7 @@
             "Key": "d8e734f5-2874-477b-ac9c-3b86c85bd6c7",
             "Value": {
                 "id": "cb1d098e-9f5e-4926-a79a-17a1218323a1",
-                "resourcePath": "objects\\oBOSS1\\oBOSS1.yy",
+                "resourcePath": "objects\/oBOSS1\/oBOSS1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -754,7 +770,7 @@
             "Key": "ea44b901-d7c2-47e0-8898-88fef26f71db",
             "Value": {
                 "id": "b239f3cd-c4e7-4604-98ef-dc39890c1ab2",
-                "resourcePath": "objects\\oBOSS5\\oBOSS5.yy",
+                "resourcePath": "objects\/oBOSS5\/oBOSS5.yy",
                 "resourceType": "GMObject"
             }
         },
