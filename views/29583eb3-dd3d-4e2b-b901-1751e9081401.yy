@@ -11,7 +11,8 @@
         "2b5c5c9e-576c-4b9d-a5c6-8220cfc9f629",
         "4a377970-d383-40d4-877f-3f3742b4fa79",
         "57fcd9bf-3f98-4ec5-8927-96ff2bcd4338",
-        "edb21840-2cbc-454d-b1e3-d28ff850f008"
+        "edb21840-2cbc-454d-b1e3-d28ff850f008",
+        "aa30605c-b860-4160-be99-c87707e73b58"
     ],
     "filterType": "GMSprite",
     "folderName": "BG",
