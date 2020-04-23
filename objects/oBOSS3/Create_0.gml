@@ -1,3 +1,3 @@
 /// @description Insert description here
-hp_boss3 = irandom(10) + 10;
+hp_boss3 = irandom(10) + 15;
 

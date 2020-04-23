@@ -1,7 +1,7 @@
 /// @description initial content of box
 
 // number of box in the current level
-num = instance_number(oBox);
+
 var checkRoom = room_get_name(room);
 
 randomSelect[0] = 2;     // empty box

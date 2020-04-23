@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "29583eb3-dd3d-4e2b-b901-1751e9081401",
-            "Value": {
-                "id": "0e33fac8-6d07-4f3d-83d9-1ecf574f59eb",
-                "resourcePath": "views\/29583eb3-dd3d-4e2b-b901-1751e9081401.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2b5c5c9e-576c-4b9d-a5c6-8220cfc9f629",
             "Value": {
                 "id": "f201cc23-d636-432c-9e1f-99e0636bee7e",
@@ -311,6 +303,14 @@
             }
         },
         {
+            "Key": "65127a6f-6407-457f-b7ad-ebc24878e602",
+            "Value": {
+                "id": "b49b8321-80cd-427b-b3da-0ddfddad9137",
+                "resourcePath": "objects\/oUIWinReturn\/oUIWinReturn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "664d2f83-bfc7-4570-8345-5af45bce354a",
             "Value": {
                 "id": "60cce43d-e053-477c-9c56-b81cda259331",
@@ -415,14 +415,6 @@
             }
         },
         {
-            "Key": "8f892c09-89db-4e1b-9c5a-c96434fa5f47",
-            "Value": {
-                "id": "782725f8-ca29-4c5f-8a1b-6ef2806cd70a",
-                "resourcePath": "objects\/oBOSS4\/oBOSS4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8f915f85-9438-4048-a828-df7b3c3f099c",
             "Value": {
                 "id": "304a3c62-26de-4541-a1a7-636b3e29e2c6",
@@ -444,14 +436,6 @@
                 "id": "d1b39efd-d252-4bcd-a38b-860d95dc018e",
                 "resourcePath": "sprites\/sEnemyBullet\/sEnemyBullet.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "97f1e9c3-8c95-43f6-83a5-9f6ea7992364",
-            "Value": {
-                "id": "0a32f476-1994-4011-8d31-af113ea02c92",
-                "resourcePath": "objects\/oBOSS2\/oBOSS2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -535,6 +519,14 @@
             }
         },
         {
+            "Key": "afbf697f-fb1e-472a-b285-a42d1c3176a4",
+            "Value": {
+                "id": "d07f5171-1aa9-44f9-b5e3-4ee01e517798",
+                "resourcePath": "sprites\/sUIWinReturn\/sUIWinReturn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1a357db-5a1c-44a1-bfa9-0afaf8e970b3",
             "Value": {
                 "id": "d994ae6c-a213-43e7-9ea3-02e76577ab2c",
@@ -556,14 +548,6 @@
                 "id": "3cea2bfe-583c-48d0-9867-44d450eb8e6f",
                 "resourcePath": "views\/b222f40b-109d-4080-a0e9-7e0fe83c66d8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b318df75-401a-49b0-973f-a63ad327e560",
-            "Value": {
-                "id": "cd2dbfc2-dd5a-400b-8789-ddfc706c3517",
-                "resourcePath": "objects\/oBOSS3\/oBOSS3.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -679,14 +663,6 @@
             }
         },
         {
-            "Key": "d5b89a98-709b-4e1c-832f-63502dcde0f0",
-            "Value": {
-                "id": "c4cd28a6-94de-4cd2-a7dd-88327eb41308",
-                "resourcePath": "rooms\/rLevel5\/rLevel5.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "d6472fb0-9674-45b0-b052-42986683ac38",
             "Value": {
                 "id": "3779325a-55ce-4fd0-bb82-41dc77993163",
@@ -751,11 +727,11 @@
             }
         },
         {
-            "Key": "ea44b901-d7c2-47e0-8898-88fef26f71db",
+            "Key": "ed4a1ed2-f999-4e19-9d08-861e6153c520",
             "Value": {
-                "id": "b239f3cd-c4e7-4604-98ef-dc39890c1ab2",
-                "resourcePath": "objects\/oBOSS5\/oBOSS5.yy",
-                "resourceType": "GMObject"
+                "id": "31d738e6-4a2d-4a92-8632-8af79c7fadbf",
+                "resourcePath": "sprites\/sbgWin\/sbgWin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

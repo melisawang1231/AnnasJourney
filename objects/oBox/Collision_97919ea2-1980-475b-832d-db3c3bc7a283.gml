@@ -18,6 +18,7 @@ if(open_box){
 	if(item == 1){
 		item = irandom(1);
 	}
+	
 		
 	switch(item){
 			
