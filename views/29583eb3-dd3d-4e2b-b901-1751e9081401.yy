@@ -13,7 +13,8 @@
         "57fcd9bf-3f98-4ec5-8927-96ff2bcd4338",
         "edb21840-2cbc-454d-b1e3-d28ff850f008",
         "ad787ec6-f25e-4b4f-8dd3-634ce41a1289",
-        "2eb48384-a2a4-4973-a1c5-73442c307ef7"
+        "2eb48384-a2a4-4973-a1c5-73442c307ef7",
+        "b74ee149-e607-4fa4-820b-ef6ac135e577"
     ],
     "filterType": "GMSprite",
     "folderName": "BG",

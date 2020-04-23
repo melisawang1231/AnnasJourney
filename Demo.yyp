@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "b74ee149-e607-4fa4-820b-ef6ac135e577",
+            "Value": {
+                "id": "63556198-a999-495c-bea6-86ee63fc8ce1",
+                "resourcePath": "sprites\/sbg5\/sbg5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b87db7a9-cde5-4547-8d32-e2b91c93a0bc",
             "Value": {
                 "id": "a126a7c2-474c-42ce-9ba4-ce2a9506d9ff",
