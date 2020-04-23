@@ -39,14 +39,19 @@ if(open_box){
 		    switch(checkRoom){
 				case "rLevel1":
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS1);
+					break;
 				case "rLevel2":
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS2);
+					break;
 				case "rLevel3":
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS3);
+					break;
 				case "rLevel4":
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS4);
+					break;
 				case "rLevel5":
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
+					break;
 			}
 			randomSelect[2] -= 1;
 		    break;
