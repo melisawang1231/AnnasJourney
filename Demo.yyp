@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "65127a6f-6407-457f-b7ad-ebc24878e602",
+            "Value": {
+                "id": "b49b8321-80cd-427b-b3da-0ddfddad9137",
+                "resourcePath": "objects\\oUIWinReturn\\oUIWinReturn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "664d2f83-bfc7-4570-8345-5af45bce354a",
             "Value": {
                 "id": "60cce43d-e053-477c-9c56-b81cda259331",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "afbf697f-fb1e-472a-b285-a42d1c3176a4",
+            "Value": {
+                "id": "d07f5171-1aa9-44f9-b5e3-4ee01e517798",
+                "resourcePath": "sprites\\sUIWinReturn\\sUIWinReturn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1a357db-5a1c-44a1-bfa9-0afaf8e970b3",
             "Value": {
                 "id": "d994ae6c-a213-43e7-9ea3-02e76577ab2c",
@@ -748,6 +764,14 @@
                 "id": "b239f3cd-c4e7-4604-98ef-dc39890c1ab2",
                 "resourcePath": "objects\/oBOSS5\/oBOSS5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed4a1ed2-f999-4e19-9d08-861e6153c520",
+            "Value": {
+                "id": "31d738e6-4a2d-4a92-8632-8af79c7fadbf",
+                "resourcePath": "sprites\\sbgWin\\sbgWin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
