@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description touch boss
 
 if(global.shield_num > 0){
 	global.shield_num -= 1;
