@@ -30,6 +30,7 @@ if(open_box){
 		
 	    // find the sheild
 		case 1:
+			instance_create_layer(x, y, 1, oShield);
 			global.shield_num += 1;
 			randomSelect[1] -= 1;
 		    break;
