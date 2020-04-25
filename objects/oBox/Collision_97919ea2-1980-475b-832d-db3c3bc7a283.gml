@@ -30,13 +30,17 @@ if(open_box){
 		
 	    // find the sheild
 		case 1:
-			instance_create_layer(x, y, 1, oShield);
-			global.shield_num += 1;
+			instance_create_layer(x + 17, y - 100, layer, oShield);	
+			///global.shield_num += 1;
 			randomSelect[1] -= 1;
 		    break;
 			
 	    // find the BOSS
 		case 2:
+			if(global.shield_num > 0) {
+				instance_create_layer(oAnna.x, oAnna.y, 1, oShield);
+				global.protect = true;
+			}
 		    var checkRoom = room_get_name(room);
 		    switch(checkRoom){
 				case "rLevel1":
@@ -60,12 +64,13 @@ if(open_box){
 			
 	    // find the key
 	    case 3: 
-			global.hasKey = 1;
+			instance_create_layer(x + 17, y - 17, layer, oKey);	
 			randomSelect[3] -= 1;
 		    break;
 	
         }
-	instance_destroy();
+	
+		instance_destroy();
 }
 
 

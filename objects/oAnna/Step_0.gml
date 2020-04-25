@@ -90,6 +90,8 @@ if(facing == STAND && inAir == INAIR_NOT){
 if(y > room_height)
 	room_goto(rGameOver);
 
-
+if(!place_meeting(x, y, oEnemy)) {
+	alarm[1] = 0;
+}
 
 

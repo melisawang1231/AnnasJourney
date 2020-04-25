@@ -17,7 +17,7 @@ direct = RIGHT;
 global.shield_num = 0;
 global.weapon_num = 0;
 global.hasKey = 0;
-
+global.protect = false;
 
 #macro LEFT  1
 #macro RIGHT 2
@@ -25,3 +25,4 @@ global.hasKey = 0;
 #macro INAIR_NOT 0
 #macro STAND 8
 
+alarm[1] = 0;
