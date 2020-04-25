@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "2359ef40-cabb-488d-ab32-c6d70caf23d6",
-            "Value": {
-                "id": "75d0ca43-f7dd-47c3-bc8c-b7190208668e",
-                "resourcePath": "objects\/oBOSS\/oBOSS.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2b5c5c9e-576c-4b9d-a5c6-8220cfc9f629",
             "Value": {
                 "id": "f201cc23-d636-432c-9e1f-99e0636bee7e",
@@ -195,6 +187,14 @@
             "Value": {
                 "id": "c46a2005-5d5f-4c1e-8f2f-a4238db81fd3",
                 "resourcePath": "sprites\/UIStart\/UIStart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f0f4d60-5bd0-4556-88b9-f26cb2523651",
+            "Value": {
+                "id": "53a32d11-57f7-45c1-9519-7326bc1e2ecb",
+                "resourcePath": "sprites\/sbg3_1\/sbg3_1.yy",
                 "resourceType": "GMSprite"
             }
         },
