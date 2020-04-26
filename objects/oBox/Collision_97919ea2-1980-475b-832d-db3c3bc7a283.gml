@@ -21,6 +21,10 @@ if(open_box){
 	
 		
 	switch(item){
+		
+		// find the empty box
+	    case -1:
+		    break;
 			
 		// find the weapon
 	    case 0:
@@ -67,11 +71,7 @@ if(open_box){
 			instance_create_layer(x + 17, y - 17, layer, oKey);	
 			randomSelect[3] -= 1;
 		    break;
-	
         }
-		
-		case -1:
-			break;
 	
 		instance_destroy();
 }
