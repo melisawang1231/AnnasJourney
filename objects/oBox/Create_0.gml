@@ -14,25 +14,24 @@ switch(checkRoom){
 				break;
 	
 	        case "rLevel2":
-		        randomSelect[1] += 2;
+			    randomSelect[2] += 1;
+		        randomSelect[1] += 1;
 		        break;
 		
 	        case "rLevel3":
-		        randomSelect[2] += 1;
-				randomSelect[1] += 2;
-				randomSelect[0] += 1;
+		        randomSelect[2] += 2;
+				randomSelect[0] += 2;
 		        break;
 		
 	        case "rLevel4":
-		        randomSelect[2] += 2;
-				randomSelect[1] += 2;
-				randomSelect[0] += 2;
+		        randomSelect[2] += 3;
+				randomSelect[0] += 3;
 		        break;
 				
 			case "rLevel5":
-		        randomSelect[2] += 3;
-				randomSelect[1] += 4;
-				randomSelect[0] += 1;
+		        randomSelect[2] += 4;
+				randomSelect[1] += 1;
+				randomSelect[0] += 3;
 		        break;
             }
 
