@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "c6020c76-3b37-4214-a684-6ab696792189",
+            "Value": {
+                "id": "aa8c4a1d-bb8c-4fc6-a077-08fff05d3b54",
+                "resourcePath": "sprites\\sBGCredits\\sBGCredits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c856ff4f-f21f-4b43-ac2d-c21c998a1e04",
             "Value": {
                 "id": "828b7d14-7ff3-4bde-bec9-5ce40087e655",
