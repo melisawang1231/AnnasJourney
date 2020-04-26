@@ -1,11 +1,11 @@
 /// @description open the box
-randomize();
+randomize()
 
 var open_box = keyboard_check_pressed(ord("D"))
 
 if(open_box){
 	item = irandom(3);
-	while(randomSelect[item] == 0){
+	while(randomSelect[item] < 1){
 		item = irandom(3);
 	}
 	
