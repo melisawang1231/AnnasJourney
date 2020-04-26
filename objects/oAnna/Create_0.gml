@@ -14,7 +14,7 @@ JUMPSP = 14;
 direct = RIGHT;
 ///global.facing = STAND
 
-global.shield_num = 1;
+global.shield_num = 0;
 global.weapon_num = 0;
 global.hasKey = 0;
 global.protect = false;

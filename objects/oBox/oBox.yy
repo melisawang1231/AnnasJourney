@@ -5,16 +5,6 @@
     "name": "oBox",
     "eventList": [
         {
-            "id": "07187028-52fa-4326-9b27-c813ea456ecc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ef399c08-288b-4efe-92fc-2f72fd0ca1ef"
-        },
-        {
             "id": "97919ea2-1980-475b-832d-db3c3bc7a283",
             "modelName": "GMEvent",
             "mvc": "1.0",

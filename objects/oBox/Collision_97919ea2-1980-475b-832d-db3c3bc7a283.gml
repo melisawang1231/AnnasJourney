@@ -5,13 +5,13 @@ var open_box = keyboard_check_pressed(ord("D"))
 
 if(open_box){
 	item = irandom(3);
-	while(randomSelect[item] < 1){
+	while(global.randomSelect[item] < 1){
 		item = irandom(3);
 	}
 	
 	// empty box
 	if(item == 0){
-			randomSelect[0] -= 1;
+			global.randomSelect[0] -= 1;
 			item = -1;
 		}
 	// props	
@@ -29,14 +29,14 @@ if(open_box){
 		// find the weapon
 	    case 0:
 		    global.weapon_num += 1;
-	        randomSelect[1] -= 1;
+	        global.randomSelect[1] -= 1;
 		    break;
 		
 	    // find the sheild
 		case 1:
 			instance_create_layer(x + 17, y - 50, layer, oShield);	
 			///global.shield_num += 1;
-			randomSelect[1] -= 1;
+			global.randomSelect[1] -= 1;
 		    break;
 			
 	    // find the BOSS
@@ -59,13 +59,13 @@ if(open_box){
 				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
 					break;
 			}
-			randomSelect[2] -= 1;
+			global.randomSelect[2] -= 1;
 		    break;
 			
 	    // find the key
 	    case 3: 
 			instance_create_layer(x + 17, y - 17, layer, oKey);	
-			randomSelect[3] -= 1;
+			global.randomSelect[3] -= 1;
 		    break;
         }
 	
