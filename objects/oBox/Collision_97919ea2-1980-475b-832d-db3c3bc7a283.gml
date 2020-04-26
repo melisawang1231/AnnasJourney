@@ -30,7 +30,7 @@ if(open_box){
 		
 	    // find the sheild
 		case 1:
-			instance_create_layer(x + 17, y - 100, layer, oShield);	
+			instance_create_layer(x + 17, y - 50, layer, oShield);	
 			///global.shield_num += 1;
 			randomSelect[1] -= 1;
 		    break;
@@ -69,6 +69,9 @@ if(open_box){
 		    break;
 	
         }
+		
+		case -1:
+			break;
 	
 		instance_destroy();
 }
