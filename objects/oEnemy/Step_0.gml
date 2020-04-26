@@ -3,7 +3,7 @@
 var p = irandom(200);
 if(p == 8){
 	var bullet = instance_create_layer(x,y,"Instances",oEnemyBullet);
-	bullet.hspeed = -1 - random(5);
+	bullet.hspeed = -1 - irandom(5);
 }
 
 if(distance_to_object(oAnna) < 500) {

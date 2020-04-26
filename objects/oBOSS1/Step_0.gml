@@ -9,7 +9,7 @@
 var p = irandom(50);
 if(p == 8){
 	var bullet = instance_create_layer(x,y,"Instances",oEnemyBullet);
-	bullet.hspeed = -1 - random(5);
+	bullet.hspeed = -1 - irandom(5);
 }
 
 // create BossBullet
@@ -17,7 +17,7 @@ var q = irandom(100);
 if(q == 8){
 	
 	var bullet = instance_create_layer(x,y,"Instances",oBossBullet);
-	bullet.hspeed = -1 - random(8);
+	bullet.hspeed = -2 - irandom(8);
 
 }
 

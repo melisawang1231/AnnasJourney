@@ -1,3 +1,3 @@
 /// @description set speed
 
-hspeed += 3;
+hspeed += 4;
