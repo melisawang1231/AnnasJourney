@@ -9,3 +9,7 @@ if(global.hasOpen == 1){
 		room_goto(rWin);
 	}
 }
+
+if(global.shield_num == 0) {
+	global.protect = false;
+}

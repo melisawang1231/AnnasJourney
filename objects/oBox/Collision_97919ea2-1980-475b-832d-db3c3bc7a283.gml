@@ -41,10 +41,6 @@ if(open_box){
 			
 	    // find the BOSS
 		case 2:
-			if(global.shield_num > 0) {
-				instance_create_layer(oAnna.x, oAnna.y, 1, oShield);
-				global.protect = true;
-			}
 		    var checkRoom = room_get_name(room);
 		    switch(checkRoom){
 				case "rLevel1":
