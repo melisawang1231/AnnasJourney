@@ -823,14 +823,6 @@
             }
         },
         {
-            "Key": "d99ee4ca-6af8-4cbd-8e94-7671a941499d",
-            "Value": {
-                "id": "07793bcf-6228-46a9-8057-32b1860da37f",
-                "resourcePath": "sprites\/sUIEmpty\/sUIEmpty.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ddcd4d82-7bb6-44f9-a3ce-d8e0be99be8d",
             "Value": {
                 "id": "8f0377cd-9701-4ad5-bb29-b7c74a44bede",
