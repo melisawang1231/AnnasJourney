@@ -2,7 +2,8 @@
 var key_left = keyboard_check(vk_left);
 var key_right = keyboard_check(vk_right);
 var key_jump = keyboard_check_pressed(vk_up);
-var open_door = keyboard_check_pressed(ord("F"))
+var key_weapon = keyboard_check_pressed(ord("W"));
+var open_door = keyboard_check_pressed(ord("F"));
 
 var left_n1_right_p1; // -1 for left, 1 for right
 var facing = STAND;
@@ -69,8 +70,6 @@ if(ys != 0){
 }
 /// Now we have facing and inAir to determine the correct sprite
 
-
-
 if(facing == LEFT && inAir == INAIR){
 	sprite_index = sAnna_JumpLeft;
 }
@@ -86,13 +85,17 @@ if(facing == RIGHT && inAir == INAIR){
 if(facing == STAND && inAir == INAIR_NOT){
 	sprite_index = sAnna;
 }
-
+/// boundary detection
 if(y > room_height)
 	room_goto(rGameOver);
 
+/// enemy slow attack timer setting
 if(!place_meeting(x, y, oEnemy)) {
 	alarm[1] = 0;
 }
+
+
+	
 
 
 

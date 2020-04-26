@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description mechanism settings
 
 if(global.hasOpen == 1){
 	if(room != room_last){
@@ -10,6 +8,6 @@ if(global.hasOpen == 1){
 	}
 }
 
-if(global.shield_num == 0) {
+if(global.shield_num <= 0) {
 	global.protect = false;
 }

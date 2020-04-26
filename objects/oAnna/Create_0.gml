@@ -18,6 +18,7 @@ global.shield_num = 0;
 global.weapon_num = 0;
 global.hasKey = 0;
 global.protect = false;
+global.attack = false;
 
 #macro LEFT  1
 #macro RIGHT 2

@@ -1,13 +1,9 @@
 /// @description  random shoot
 
-if(global.weapon_num > 0){
-	global.weapon_num = global.weapon_num - 1;
-	with(oController) {
-       if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-	   __dnd_score += real(200);
-   }
-	instance_destroy();
-}
+///if(global.weapon_num > 0){
+///	global.weapon_num = global.weapon_num - 1;
+///	instance_destroy();
+///}
 
 // create enemyBullet
 var p = irandom(50);

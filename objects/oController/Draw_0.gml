@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description draw
 
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(20, 20, string("Score: ") + string(__dnd_score));

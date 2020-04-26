@@ -1,3 +1,3 @@
-/// @description collision with Maria
+/// @description collision with Anna
 
 instance_destroy();

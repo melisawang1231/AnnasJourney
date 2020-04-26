@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "2fcfbba4-8a7f-44da-868c-b7682c3bdd16",
+            "Value": {
+                "id": "ca545bbc-0ee7-4ebc-a263-887c018f8668",
+                "resourcePath": "views\/2fcfbba4-8a7f-44da-868c-b7682c3bdd16.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "301a8a7d-965a-46e6-a64c-4cb8288fecf0",
             "Value": {
                 "id": "8fa89946-ec56-41f0-9fb1-990b6a7dc375",
@@ -203,14 +211,6 @@
             "Value": {
                 "id": "c46a2005-5d5f-4c1e-8f2f-a4238db81fd3",
                 "resourcePath": "sprites\/UIStart\/UIStart.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3f0f4d60-5bd0-4556-88b9-f26cb2523651",
-            "Value": {
-                "id": "53a32d11-57f7-45c1-9519-7326bc1e2ecb",
-                "resourcePath": "sprites\/sbg3_1\/sbg3_1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "7b643654-5d73-4a7a-8767-52034d89ec8f",
+            "Value": {
+                "id": "0cff600e-c7a7-4852-bc05-479406a7037f",
+                "resourcePath": "sprites\/sWeaponAttackRight\/sWeaponAttackRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81004717-78e7-4387-ad37-df81ca67a72f",
             "Value": {
                 "id": "b87e7981-99b3-41e4-b35b-1d473bb3a971",
@@ -623,6 +631,14 @@
             }
         },
         {
+            "Key": "b4887c9d-8da6-4833-9ac5-ec8a1605eefb",
+            "Value": {
+                "id": "bc197255-828c-4e18-89ac-8c564b1fe9e9",
+                "resourcePath": "sprites\/sWeapon\/sWeapon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b5529b12-d48d-4984-bab9-c39bb0a19b85",
             "Value": {
                 "id": "5d5c9b93-78fa-4d7b-9757-033449efaa6f",
@@ -682,7 +698,7 @@
             "Key": "c6020c76-3b37-4214-a684-6ab696792189",
             "Value": {
                 "id": "aa8c4a1d-bb8c-4fc6-a077-08fff05d3b54",
-                "resourcePath": "sprites\\sBGCredits\\sBGCredits.yy",
+                "resourcePath": "sprites\/sBGCredits\/sBGCredits.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -715,6 +731,14 @@
             "Value": {
                 "id": "13827338-b0b3-425f-be34-642e232a06e2",
                 "resourcePath": "objects\/oBossBullet\/oBossBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca856b82-ce14-49cd-a717-727618f1ddbd",
+            "Value": {
+                "id": "a55010de-180c-4e08-9594-7617de96b3e7",
+                "resourcePath": "objects\/oWeapon\/oWeapon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -811,6 +835,14 @@
             "Value": {
                 "id": "8f0377cd-9701-4ad5-bb29-b7c74a44bede",
                 "resourcePath": "sprites\/sLeverChooser\/sLeverChooser.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dfb3b3f5-2fc1-413b-a408-b6b4d0fd89bc",
+            "Value": {
+                "id": "aa56fdff-c223-4562-bb6f-c18cba67f661",
+                "resourcePath": "sprites\/sWeaponAttackLeft\/sWeaponAttackLeft.yy",
                 "resourceType": "GMSprite"
             }
         },

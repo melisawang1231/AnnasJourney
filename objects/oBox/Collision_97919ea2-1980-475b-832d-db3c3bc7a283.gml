@@ -28,37 +28,43 @@ if(open_box){
 			
 		// find the weapon
 	    case 0:
-		    global.weapon_num += 1;
+			instance_create_layer(x, y, layer, oWeapon);	
+		    ///global.weapon_num += 1;
 	        global.randomSelect[1] -= 1;
 		    break;
 		
 	    // find the sheild
 		case 1:
-			instance_create_layer(x + 17, y - 50, layer, oShield);	
+			instance_create_layer(x + 11, y - 28, layer, oShield);	
 			///global.shield_num += 1;
 			global.randomSelect[1] -= 1;
 		    break;
 			
 	    // find the BOSS
 		case 2:
-		    var checkRoom = room_get_name(room);
-		    switch(checkRoom){
-				case "rLevel1":
-				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS1);
-					break;
-				case "rLevel2":
-				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS2);
-					break;
-				case "rLevel3":
-				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS3);
-					break;
-				case "rLevel4":
-				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS4);
-					break;
-				case "rLevel5":
-				    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
-					break;
+			if(global.shield_num > 0 && !global.protect && !global.attack) {
+				instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
+				global.protect = true;
 			}
+			instance_create_layer(room_width/2.1, room_height/1.7, layer, global.bossId);
+		    ///var checkRoom = room_get_name(room);
+		    ///switch(checkRoom){
+			///	case "rLevel1":
+			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS1);
+			///		break;
+			///	case "rLevel2":
+			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS2);
+			///		break;
+			///	case "rLevel3":
+			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS3);
+			///		break;
+			///	case "rLevel4":
+			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS4);
+			///		break;
+			///	case "rLevel5":
+			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
+			///		break;
+			///}
 			global.randomSelect[2] -= 1;
 		    break;
 			
