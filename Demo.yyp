@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "46db3b49-2e7a-437a-8ed8-b69e26af760a",
+            "Value": {
+                "id": "66f36643-cb66-4bf5-a2bb-0ba208f9c0d6",
+                "resourcePath": "objects\/oTextBox5\/oTextBox5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4726faba-0654-4be4-8ab1-a720eeca9902",
             "Value": {
                 "id": "5712c283-485b-4dad-b5ea-847fe0445e61",
