@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "08f87a70-b099-40fe-b3fa-23b030c58c71",
-            "Value": {
-                "id": "483da9ca-d2d2-4046-bc2c-ebd64b4a935f",
-                "resourcePath": "objects\/oTrigger\/oTrigger.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0a860551-66f9-4136-ad18-c511ba4b0259",
             "Value": {
                 "id": "6c82a18a-c6e7-43f9-a734-c4fe771f184a",
@@ -143,14 +135,6 @@
             }
         },
         {
-            "Key": "1da34ce5-85bb-43a0-adf2-e70a4594120a",
-            "Value": {
-                "id": "d2329ae9-6af7-487b-8516-78bcd51c9fc7",
-                "resourcePath": "objects\/oTextBox3\/oTextBox3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "27499a24-afc9-44c0-a431-707f4099c966",
             "Value": {
                 "id": "931ec0b6-fb1b-418b-a48a-1c38abcd27a9",
@@ -223,6 +207,14 @@
             }
         },
         {
+            "Key": "34f85686-3d66-4119-81d0-db4983dff8a5",
+            "Value": {
+                "id": "8ee6c9ce-a296-4733-8c9b-1816c62c3615",
+                "resourcePath": "sprites\/sBoss4Portraits\/sBoss4Portraits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35874492-69c3-4570-814e-e739fb1ae7a5",
             "Value": {
                 "id": "608ed6c7-ea01-4d5f-a908-eaca2cfe5153",
@@ -275,6 +267,14 @@
             "Value": {
                 "id": "a3acca55-9870-4889-8d26-3770ba0c1559",
                 "resourcePath": "objects\/oUIMenu\/oUIMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "464a6fc6-819b-48f8-a517-2701fafa5c5d",
+            "Value": {
+                "id": "4beffa89-269e-4c94-bad2-632f0fa7c142",
+                "resourcePath": "objects\/oTextBox4\/oTextBox4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -487,19 +487,19 @@
             }
         },
         {
-            "Key": "7a2cd733-897d-42dc-8dc5-e134a987e0eb",
-            "Value": {
-                "id": "c58af9da-c0fd-44a7-9ac3-a1d1f3929540",
-                "resourcePath": "scripts\/sStory\/sStory.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7b643654-5d73-4a7a-8767-52034d89ec8f",
             "Value": {
                 "id": "0cff600e-c7a7-4852-bc05-479406a7037f",
                 "resourcePath": "sprites\/sWeaponAttackRight\/sWeaponAttackRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ee7275f-25db-415c-a205-938a67e09a9c",
+            "Value": {
+                "id": "54f90878-53f9-4c92-b2d7-7a671164dfb2",
+                "resourcePath": "objects\/oTextBox3\/oTextBox3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -636,6 +636,14 @@
                 "id": "6ca8ea6e-0ff3-4c21-ade9-4b7d1bba3a5d",
                 "resourcePath": "objects\/oUIPause\/oUIPause.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a7d8f5c7-9bd5-45f9-8a20-3a05b6b9da39",
+            "Value": {
+                "id": "9afce107-aee2-4cdb-84d2-2a9f7584e4b4",
+                "resourcePath": "sprites\/sBoss3Portraits\/sBoss3Portraits.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -991,14 +999,6 @@
             }
         },
         {
-            "Key": "ed5fca16-a49b-4b4b-add2-22d38bc24aaf",
-            "Value": {
-                "id": "5e28bd53-a1e8-4eba-ae1a-0572c766a2ae",
-                "resourcePath": "objects\/oTextBox4\/oTextBox4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "edb21840-2cbc-454d-b1e3-d28ff850f008",
             "Value": {
                 "id": "ca460f3e-f096-48a6-a5c8-7e969272dc6a",
@@ -1064,7 +1064,7 @@
         }
     ],
     "script_order": [
-        "7a2cd733-897d-42dc-8dc5-e134a987e0eb"
+        
     ],
     "tutorial": ""
 }
