@@ -42,11 +42,6 @@ if(open_box){
 			
 	    // find the BOSS
 		case 2:
-			if(global.shield_num > 0 && !global.protect && !global.attack) {
-				instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
-				global.protect = true;
-			}
-			instance_create_layer(room_width/2.1, room_height/1.7, layer, global.bossId);
 		    ///var checkRoom = room_get_name(room);
 		    ///switch(checkRoom){
 			///	case "rLevel1":
@@ -65,6 +60,7 @@ if(open_box){
 			///	    instance_create_layer(room_width/2.1,room_height/1.7,layer,oBOSS5);	
 			///		break;
 			///}
+			instance_create_layer(room_width/2.1, room_height/1.7, layer, global.bossId);
 			global.randomSelect[2] -= 1;
 		    break;
 			

@@ -2,7 +2,6 @@
 var key_left = keyboard_check(vk_left);
 var key_right = keyboard_check(vk_right);
 var key_jump = keyboard_check_pressed(vk_up);
-var key_weapon = keyboard_check_pressed(ord("W"));
 var open_door = keyboard_check_pressed(ord("F"));
 
 var left_n1_right_p1; // -1 for left, 1 for right
@@ -94,7 +93,16 @@ if(!place_meeting(x, y, oEnemy)) {
 	alarm[1] = 0;
 }
 
-
+/// shield effect
+if(instance_exists(global.bossId)) {
+	if(global.shield_num > 0 && !global.protect && !global.attack) {
+		instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
+		global.protect = true;
+	}
+}
+if(global.shield_num < 0) {
+	global.shield_num = 0;
+}
 	
 
 

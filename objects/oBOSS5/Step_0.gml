@@ -6,14 +6,14 @@
 ///	instance_destroy();
 ///}
 
-// create enemyBullet
+/// create enemyBullet
 var p = irandom(50);
 if(p == 8){
 	var bullet = instance_create_layer(x,y,"Instances",oEnemyBullet);
 	bullet.hspeed = -1 - random(5);
 }
 
-// create BossBullet
+/// create BossBullet
 var q = irandom(100);
 if(q == 8){
 	
