@@ -1,5 +1,4 @@
 /// @description Inits
-
 hp_Anna = 6;
 
 // Gravity on y-axis. ys change/frame
@@ -7,8 +6,6 @@ gr = 0.5;
 // Speed on y-axis. y-axis component of the character's movement
 ys = 0;
 // hp
-//hp_M = 10;
-
 WALKSP = 8;
 JUMPSP = 14;
 direct = RIGHT;

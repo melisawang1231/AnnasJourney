@@ -11,13 +11,13 @@ text_box_x = port_x + 0.5 * boss_portraits_width + 0.5 * text_box_width;
 text_box_y = port_y;
 
 text_color = c_white;
-text[0] = "Welcome to my world! I am the malice from people... (Press ANY KEY to continue...)" 
-text[1] = "To through this stage, you need to open boxes(Press SHIFT+D), find the key and open the door(Press SHIFT+F)..." 
-text[2] = "By opening boxes, you may gain(Press SHIFT+G) weapons and shield to protect yourself from ME"
-text[3] = "Be careful to the fires and ... me! I hide in the boxes as well and I can kill you. You can shoot at us(Press SPACE). Good luck!";
+text[0] = "Welcome to my world! I am the malice from people... (Press ANY KEY to continue...)";
+text[1] = "To through this stage, you need to open boxes(Press D), find the key and open the door(Press F)...";
+text[2] = "By opening boxes, you may gain weapons and shield(Press G) to protect yourself from ME";
+text[3] = "Weapons will work if you press W while shield will protect you AUTOMATICALLY.";
+text[4] = "Be careful to the fires and ... me! I hide in the boxes as well and I can kill you. You can shoot at us(Press SPACE). Good luck!";
 page = 0;
 /// typewriter effect
-///var interval = random_range(0.07, 0.15);
 index = 0;
 
 /// text showing settings

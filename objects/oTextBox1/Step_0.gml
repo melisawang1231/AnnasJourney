@@ -7,6 +7,7 @@ if(keyboard_check_pressed(vk_anykey)) {
 			index = 0;
 			page++;
 		} else {
+			global.dialog = false;
 			instance_destroy();
 		}
 	}

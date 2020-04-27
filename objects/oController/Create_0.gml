@@ -3,6 +3,7 @@
 // number of box in the current level
 global.checkRoom = room_get_name(room);
 global.bossId = oBOSS1;
+global.dialog = true;
 
 global.randomSelect[0] = 2;     // empty box
 global.randomSelect[1] = 2;     // props (including weapon and sheild)

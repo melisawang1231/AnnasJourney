@@ -11,3 +11,5 @@ if(global.hasOpen == 1){
 if(global.shield_num <= 0) {
 	global.protect = false;
 }
+
+	
