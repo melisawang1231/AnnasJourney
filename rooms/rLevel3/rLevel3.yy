@@ -448,7 +448,7 @@
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 1,
-            "htiled": true,
+            "htiled": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,

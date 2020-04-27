@@ -8,7 +8,7 @@ ys = 0;
 // hp
 WALKSP = 8;
 JUMPSP = 14;
-direct = RIGHT;
+direct = RIGHT1;
 ///global.facing = STAND
 
 global.shield_num = 0;
@@ -18,10 +18,10 @@ global.protect = false;
 global.attack = false;
 
 
-#macro LEFT  1
-#macro RIGHT 2
-#macro INAIR 4
-#macro INAIR_NOT 0
-#macro STAND 8
+#macro LEFT1  1
+#macro RIGHT1 2
+#macro INAIR1 4
+#macro INAIR_NOT1 0
+#macro STAND1 8
 
 alarm[1] = 0;

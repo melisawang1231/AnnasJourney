@@ -11,7 +11,7 @@ text_box_x = port_x + 0.5 * boss_width + 0.5 * text_box_width;
 text_box_y = port_y;
 
 text_color = c_white;
-text[0] = "You have defeated all bosses before, good job...";
+text[0] = "You have defeated all bosses before, so lucky...";
 text[1] = "But don't be too happy, I am stronger than any boss you ve met, I will kill you and become you...";
 
 page = 0;

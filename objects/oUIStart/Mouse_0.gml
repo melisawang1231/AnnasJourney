@@ -1,3 +1,7 @@
 /// @description Insert description here
-
-room_goto(rLevel1);
+if(room_get_name(room) == "rTitle") {
+	room_goto(rIntro);
+}
+else {
+	room_goto(rLevel1);
+}
