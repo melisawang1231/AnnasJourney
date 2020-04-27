@@ -12,4 +12,6 @@ if(global.shield_num <= 0) {
 	global.protect = false;
 }
 
-	
+if(!instance_exists(oTextBox1) && !instance_exists(oTextBox2) && !instance_exists(oTextBox5)) {
+	global.dialog = false;
+}

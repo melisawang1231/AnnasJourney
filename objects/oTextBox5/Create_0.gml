@@ -1,8 +1,8 @@
 /// textbox settings
 text_box_height = sprite_get_height(sTextbox);
 text_box_width = sprite_get_width(sTextbox);
-boss_height = sprite_get_height(sBoss2Portraits);
-boss_width = sprite_get_width(sBoss2Portraits);
+boss_height = sprite_get_height(sBoss5Portraits);
+boss_width = sprite_get_width(sBoss5Portraits);
 /// boss location
 port_x = (room_width - text_box_width) * 0.5;
 port_y = room_height * 0.9 - boss_height;
@@ -10,9 +10,9 @@ port_y = room_height * 0.9 - boss_height;
 text_box_x = port_x + 0.5 * boss_width + 0.5 * text_box_width;
 text_box_y = port_y;
 
-text_color = c_red;
-text[0] = "Well, it seems like people coming in. I cannot wait to hear the sound of bones being broken...";
-text[1] = "Welcome to the world of FEAR...";
+text_color = c_white;
+text[0] = "You have defeated all bosses before, good job...";
+text[1] = "But don't be too happy, I am stronger than any boss you ve met, I will kill you and become you...";
 
 page = 0;
 /// typewriter effect
