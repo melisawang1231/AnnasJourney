@@ -4,9 +4,29 @@ randomize()
 var open_box = keyboard_check_pressed(ord("F"))
 
 if(open_box){
-	item = irandom(3);
+	item = irandom(100);
+	
+	if(item < 40){
+		item = 2;
+	} else if(item < 70){
+		item = 1;
+	} else if(item < 90){
+		item = 0;
+	} else{
+		item = 3;
+	}
+	
 	while(global.randomSelect[item] < 1){
-		item = irandom(3);
+		item = irandom(100);
+		if(item < 40){
+		    item = 2;
+	    } else if(item < 70){
+		    item = 1;
+	    } else if(item < 90){
+		    item = 0;
+	    } else{
+		    item = 3;
+	    }
 	}
 	
 	// empty box
