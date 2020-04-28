@@ -103,7 +103,7 @@ if(!global.dialog) {
 	}
 	if(global.shield_num < 0) {
 		global.shield_num = 0;
-	}$
+	}
 }
 	
 
