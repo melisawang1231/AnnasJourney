@@ -1,5 +1,5 @@
 /// @description Insert description here
-if(room == rTitle) {
+if(room_get_name(room) == "rTitle") {
 	room_goto(rIntro);
 }
 else {
