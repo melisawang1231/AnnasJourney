@@ -12,10 +12,11 @@ text_box_y = port_y;
 
 text_color = c_white;
 text[0] = "Welcome to my world! I am the malice from people... (Press ANY KEY to continue...)";
-text[1] = "To through this stage, you need to open boxes(Press D), find the key and open the door(Press F)...";
-text[2] = "By opening boxes, you may gain weapons and shield(Press G) to protect yourself from ME";
-text[3] = "Weapons will work if you press W while shield will protect you AUTOMATICALLY.";
-text[4] = "Be careful to the fires and ... me! I hide in the boxes as well and I can kill you. You can shoot at us(Press SPACE). Good luck!";
+text[1] = "To through this stage, you need to open boxes(Press F), find the key and open the door(Press F)...";
+text[2] = "By opening boxes, you may gain weapons and shield(Press E) to protect yourself from ME";
+text[3] = "Weapons will work if you press Q while shield will protect you AUTOMATICALLY.";
+text[4] = "Be careful to the fires and ... me! I hide in the boxes as well and I can kill you. You can shoot at us(Press SPACE).";
+text[5] = "You can move freely in the room.(press W for jump, press A for left move and press D for right mvoe) Good luck!"
 page = 0;
 /// typewriter effect
 index = 0;
