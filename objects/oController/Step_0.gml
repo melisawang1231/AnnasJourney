@@ -1,7 +1,7 @@
 /// @description mechanism settings
 
 if(global.hasOpen == 1){
-	if(room != room_last){
+	if(room != rLevel5){
 		room_goto_next();
 	} else{
 		room_goto(rWin);
