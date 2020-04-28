@@ -1,8 +1,8 @@
 
 	/// @description Anna movement
-	var key_left = keyboard_check(vk_left);
-	var key_right = keyboard_check(vk_right);
-	var key_jump = keyboard_check_pressed(vk_up);
+	var key_left = keyboard_check(ord("A"));
+	var key_right = keyboard_check(ord("D"));
+	var key_jump = keyboard_check_pressed(ord("W"));
 
 	var left_n1_right_p1; // -1 for left, 1 for right
 	var facing = STAND1;

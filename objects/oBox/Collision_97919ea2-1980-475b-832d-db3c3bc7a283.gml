@@ -1,7 +1,7 @@
 /// @description open the box
 randomize()
 
-var open_box = keyboard_check_pressed(ord("D"))
+var open_box = keyboard_check_pressed(ord("F"))
 
 if(open_box){
 	item = irandom(3);
