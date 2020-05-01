@@ -16,8 +16,7 @@ global.weapon_num = 0;
 global.hasKey = 0;
 global.protect = false;
 global.attack = false;
-global.mouseControl = true;
-global.open = false;
+
 
 
 #macro LEFT  1

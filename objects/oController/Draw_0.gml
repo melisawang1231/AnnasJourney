@@ -6,3 +6,9 @@ draw_text(20, 40, string("Shield: ") + string(global.shield_num));
 draw_text(20, 60, string("Weapon: ") + string(global.weapon_num));
 draw_text(20, 80, string("Key: ") + string(global.hasKey));
 draw_text(20, 100, string("Anna HP: ") + string(oAnna.hp_Anna));
+
+if(global.mouseControl){
+	draw_text(20, 120, string("Use Mouse"));
+} else{
+    draw_text(20, 120, string("Use Keyboard"));
+}

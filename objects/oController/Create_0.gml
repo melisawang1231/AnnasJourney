@@ -1,5 +1,9 @@
 /// @description initial content of box
 
+global.mouseControl = true;
+global.open = false;
+
+
 // number of box in the current level
 global.checkRoom = room_get_name(room);
 global.bossId = oBOSS1;
