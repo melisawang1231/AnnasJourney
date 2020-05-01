@@ -16,6 +16,8 @@ global.weapon_num = 0;
 global.hasKey = 0;
 global.protect = false;
 global.attack = false;
+global.mouseControl = true;
+global.open = false;
 
 
 #macro LEFT  1
@@ -25,3 +27,11 @@ global.attack = false;
 #macro STAND 8
 
 alarm[1] = 0;
+
+/// @description Anna movement
+mouse_left = 0;
+mouse_right = 0;
+mouse_jump = 0;
+left_right = 0; // -1 for left, 1 for right
+face = STAND;
+inAir_mouse = INAIR_NOT;

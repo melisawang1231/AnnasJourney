@@ -1,4 +1,4 @@
-if(!global.dialog) {
+if(!global.dialog and !global.mouseControl) {
 	/// @description Anna movement
 	var key_left = keyboard_check(ord("A"));
 	var key_right = keyboard_check(ord("D"));
@@ -104,6 +104,81 @@ if(!global.dialog) {
 	if(global.shield_num < 0) {
 		global.shield_num = 0;
 	}
+} else if(!global.dialog and global.mouseControl) {
+	/// open door
+	if(place_meeting(x, y, oDoor) && mouse_check_button(mb_middle)){
+		global.hasOpen = 1;
+	}
+	
+	/// open box
+	if(place_meeting(x, y, oBox) && mouse_check_button(mb_middle)){
+		global.open = 1;
+	}
+
+	if(left_right == -1){
+		face = LEFT;
+		direct = LEFT;
+	} else if(left_right == 1){
+		face = RIGHT;
+		direct = RIGHT;
+	}
+	else{
+		face = STAND;
+		direct = RIGHT;
+	}
+
+	ys = ys + gr;
+	if( !place_free(x, y + ys) ){
+		while( place_free(x, y + sign(ys))){
+			y = y + sign(ys);
+		}
+		ys = 0;
+	} 
+	y = y + ys;
+
+	if(ys != 0){
+		inAir_mouse = INAIR;
+	} else{
+		inAir_mouse = INAIR_NOT;
+	}
+	
+	/// Now we have facing and inAir to determine the correct sprite
+	if(face == LEFT && inAir_mouse == INAIR){
+		sprite_index = sAnna_JumpLeft;
+	}
+	if(face == RIGHT && inAir_mouse == INAIR_NOT){
+		sprite_index = sAnna_WalkRight;
+	}
+	if(face == LEFT && inAir_mouse == INAIR_NOT){
+		sprite_index = sAnna_WalkLeft;
+	}
+	if(face == RIGHT && inAir_mouse == INAIR){
+		sprite_index = sAnna_JumpRight;
+	}
+	if(face == STAND && inAir_mouse == INAIR_NOT){
+		sprite_index = sAnna;
+	}
+	
+	/// boundary detection
+	if(y > room_height)
+		room_goto(rGameOver);
+
+	/// enemy slow attack timer setting
+	if(!place_meeting(x, y, oEnemy)) {
+		alarm[1] = 0;
+	}
+
+	/// shield effect
+	if(instance_exists(global.bossId)) {
+		if(global.shield_num > 0 && !global.protect && !global.attack) {
+			instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
+			global.protect = true;
+		}
+	}
+	if(global.shield_num < 0) {
+		global.shield_num = 0;
+	}
+	
 }
 	
 

@@ -3,7 +3,7 @@ randomize()
 
 var open_box = keyboard_check_pressed(ord("F"))
 
-if(open_box){
+if(open_box or global.open){
 	item = irandom(100);
 	
 	if(item < 40){
@@ -91,6 +91,7 @@ if(open_box){
 		    break;
         }
 	
+	    global.open = false;
 		instance_destroy();
 }
 
