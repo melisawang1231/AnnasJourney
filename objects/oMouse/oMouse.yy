@@ -1,18 +1,18 @@
 {
-    "id": "d38f8f11-0938-461f-a722-e0fc23defb47",
+    "id": "de299cc2-0256-4171-8449-506874f9816c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oKeyboard",
+    "name": "oMouse",
     "eventList": [
         {
-            "id": "9c313a5d-b23e-4ba4-8ec6-0a5d66bca3bf",
+            "id": "5ca79701-e6f9-4092-9ea5-f22c5b064eb0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "d38f8f11-0938-461f-a722-e0fc23defb47"
+            "m_owner": "de299cc2-0256-4171-8449-506874f9816c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "81a21cda-0a4a-42ff-ab79-47ed7c75b180",
+    "spriteId": "6afbc3eb-0e98-4a15-844c-8085e8b76cbb",
     "visible": true
 }
