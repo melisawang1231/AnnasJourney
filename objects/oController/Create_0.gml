@@ -1,6 +1,6 @@
 /// @description initial content of box
 
-global.mouseControl = true;
+//global.mouseControl = true;
 global.open = false;
 
 
