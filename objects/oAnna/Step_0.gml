@@ -1,4 +1,4 @@
-if(!global.dialog) {
+if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 	var left_n1_right_p1; // -1 for left, 1 for right
 	var facing = STAND;
 	if(!global.mouseControl) {

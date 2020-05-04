@@ -13,7 +13,8 @@
         "7853275a-8b1c-411c-b991-544c6e11b89b",
         "7a3b4329-776d-415a-8b6f-f7c1a2c33b35",
         "b8408f06-5d73-4521-94fc-626b8ac7538c",
-        "939c627c-74fc-4a55-8e13-343f38cf6eca"
+        "939c627c-74fc-4a55-8e13-343f38cf6eca",
+        "e6b235da-e390-4324-87ba-00a83e5c6bc6"
     ],
     "filterType": "GMSprite",
     "folderName": "Introductions",
