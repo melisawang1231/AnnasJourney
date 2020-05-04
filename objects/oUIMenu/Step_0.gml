@@ -1,13 +1,19 @@
 /// @description menu move
 var downpress = keyboard_check_pressed(vk_down);
 var uppress = keyboard_check_pressed(vk_up);
+/// play sound
+if(downpress || uppress) {
+	audio_play_sound(sndClick, 1, false);
+}
+
 menu_move = downpress - uppress;
 menu_index += menu_move;
-if(menu_index < 0)
+if(menu_index < 0) {
 	menu_index = buttons - 1;
-	
-if(menu_index > buttons - 1)
+}
+if(menu_index > buttons - 1) {
 	menu_index = 0;
+}
 last_selected = menu_index;
 
 ///if(position_meeting(mouse_x, mouse_y, oUIMenu)) {

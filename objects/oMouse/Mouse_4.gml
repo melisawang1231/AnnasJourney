@@ -1,4 +1,5 @@
 /// @description mouse control
+audio_play_sound(sndClick, 1, false);
 global.mouseControl = true;
 global.chooseMeth = true;
 

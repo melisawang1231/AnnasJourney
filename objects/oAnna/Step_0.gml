@@ -44,7 +44,11 @@ if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 	}
 
 	var xs = left_n1_right_p1 * WALKSP;
-
+	// walk sound play
+	if(xs != 0 && ys == 0 && alarm[2] == 0) {
+		audio_play_sound(sndWalk, 1, false);
+		alarm[2] = 25;
+	}
 	if( !place_free(x + xs, y) ){
 		while( place_free(x + left_n1_right_p1, y)){
 			x = x + left_n1_right_p1;
@@ -68,6 +72,7 @@ if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 
 	if( canJump && key_jump ){
 		ys = -JUMPSP;
+		audio_play_sound(sndJump, 1, false);
 	}
 
 	ys = ys + gr;
@@ -109,6 +114,9 @@ if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 	/// enemy slow attack timer setting
 	if(!place_meeting(x, y, oEnemy)) {
 		alarm[1] = 0;
+	}
+	if(alarm[2] > 0) {
+		alarm[2] -= 1;
 	}
 
 	/// shield effect

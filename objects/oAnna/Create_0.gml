@@ -26,7 +26,7 @@ global.attack = false;
 #macro STAND 8
 
 alarm[1] = 0;
-
+alarm[2] = 0;
 /// @description Anna movement
 ///mouse_left = 0;
 ///mouse_right = 0;

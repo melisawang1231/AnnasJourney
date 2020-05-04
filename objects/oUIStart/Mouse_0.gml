@@ -1,4 +1,5 @@
 /// @description Insert description here
+audio_play_sound(sndClick, 1, false);
 if(global.chooseMeth){
 	
     if(room_get_name(room) == "rTitle") {

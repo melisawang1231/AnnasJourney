@@ -4,6 +4,7 @@ randomize()
 var open_box = keyboard_check_pressed(ord("F"))
 
 if(open_box or global.open){
+	audio_play_sound(sndOpenBox, 1, false);
 	item = irandom(100);
 	
 	if(item < 40){
