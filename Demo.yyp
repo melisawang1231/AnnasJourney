@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "27a5531f-8e9b-43a8-a2e7-6ac5363846da",
+            "Value": {
+                "id": "f9474e75-315e-4faa-ba39-459b3ac38a8f",
+                "resourcePath": "objects\/oShieldUse\/oShieldUse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2af1d6d2-180a-44e6-b44a-661b63a6fef8",
             "Value": {
                 "id": "0269b1ef-e29c-4559-be3e-caf78f2c0dbb",
@@ -236,14 +244,6 @@
                 "id": "8fa89946-ec56-41f0-9fb1-990b6a7dc375",
                 "resourcePath": "views\/301a8a7d-965a-46e6-a64c-4cb8288fecf0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "32e57183-93f1-45d8-8cfb-1ce64aec8020",
-            "Value": {
-                "id": "95223939-9c1d-43f5-96a1-2d8ce609d3c6",
-                "resourcePath": "rooms\/rLevel1_3\/rLevel1_3.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "491744b8-92ed-41e7-9bb6-876bb3ff2290",
+            "Value": {
+                "id": "72108217-c041-46f7-b34d-4a0a01f9b982",
+                "resourcePath": "rooms\/rLevel1_5\/rLevel1_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4a2379c7-9bd3-4ff8-8c45-ca6ec00f5e3d",
             "Value": {
                 "id": "e1dc537e-2973-42fa-81b2-796481481167",
@@ -404,6 +412,14 @@
                 "id": "c7a15bb3-930b-4a14-b950-4270519ba92c",
                 "resourcePath": "sprites\/sShield\/sShield.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5232cc82-01ed-4946-9c2d-62ebb478cf82",
+            "Value": {
+                "id": "cfbbe905-29b9-4f4d-a35d-715cb54bcce5",
+                "resourcePath": "objects\/oBossIntrolevel\/oBossIntrolevel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "62c786a1-7db9-4076-8f37-c7bba1621a96",
+            "Value": {
+                "id": "774bf37f-5078-490d-a3e1-64524c576cb0",
+                "resourcePath": "rooms\/rLevel1_4\/rLevel1_4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "65127a6f-6407-457f-b7ad-ebc24878e602",
             "Value": {
                 "id": "b49b8321-80cd-427b-b3da-0ddfddad9137",
@@ -559,6 +583,14 @@
             }
         },
         {
+            "Key": "70f58024-e638-4ea8-8799-7a24c1e6c5c2",
+            "Value": {
+                "id": "d4dfad8b-7f2c-47d8-8b5a-366c3aabf859",
+                "resourcePath": "rooms\/rLevel1_3\/rLevel1_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7383cacf-3a93-4d5e-beee-e450fc5dc01d",
             "Value": {
                 "id": "e398af7e-d8bd-4688-9475-cbb700ceab87",
@@ -580,6 +612,22 @@
                 "id": "c646d74f-727f-459f-8c08-4109d34c907c",
                 "resourcePath": "sprites\/sMouseRight\/sMouseRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79344fee-566e-45a7-9bb6-38655b828ac9",
+            "Value": {
+                "id": "9666a92d-e9a9-4248-8e6c-4ab65019f190",
+                "resourcePath": "objects\/oBossIntro\/oBossIntro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7a2ad409-5418-4e44-91a4-574667ee62bb",
+            "Value": {
+                "id": "3d45ffca-c26e-4290-904d-22d6a67a78b0",
+                "resourcePath": "objects\/oBossText\/oBossText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -667,6 +715,22 @@
             "Value": {
                 "id": "7ebd1d4a-5e78-45f0-b630-62dd6640a63b",
                 "resourcePath": "objects\/oChooseMeth\/oChooseMeth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "884873da-b660-4618-883a-d8afdd2e11f9",
+            "Value": {
+                "id": "93cce3c7-cafe-4555-a498-27815446e351",
+                "resourcePath": "objects\/oWeaponUse\/oWeaponUse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a8b8de9-63ea-4f25-825c-1b32752eeb52",
+            "Value": {
+                "id": "80a06493-17b7-4da5-83af-fb3b484b7523",
+                "resourcePath": "objects\/oWeaponIntro\/oWeaponIntro.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -767,14 +831,6 @@
             }
         },
         {
-            "Key": "a276cb64-482d-4787-9e59-8d667d54bbd2",
-            "Value": {
-                "id": "0d9fc261-5093-4a5f-b95f-adc685009138",
-                "resourcePath": "rooms\/rLevel1_4\/rLevel1_4.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "a6ab133a-1e23-4bdf-9d19-b94b2bd3c64c",
             "Value": {
                 "id": "dfa382b6-92f5-4ea3-a3c8-cb94cb0a8ae8",
@@ -855,19 +911,19 @@
             }
         },
         {
+            "Key": "ae05bc86-eae0-458b-bc4c-7122d73a79ef",
+            "Value": {
+                "id": "caedde9e-ed1c-40ee-943e-aba28c9e628c",
+                "resourcePath": "objects\/oShieldIntro\/oShieldIntro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afbf697f-fb1e-472a-b285-a42d1c3176a4",
             "Value": {
                 "id": "d07f5171-1aa9-44f9-b5e3-4ee01e517798",
                 "resourcePath": "sprites\/sUIWinReturn\/sUIWinReturn.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b181d969-5296-4096-8bb4-4fc6e84fb6af",
-            "Value": {
-                "id": "facfe2e5-9dc6-4834-a734-96fa9f29f6bf",
-                "resourcePath": "rooms\/rLevel1_5\/rLevel1_5.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1163,6 +1219,14 @@
             "Value": {
                 "id": "7093e917-c165-4df7-8dfe-d78134b22d7c",
                 "resourcePath": "objects\/oMouse\/oMouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de8ebf1a-e94b-45b6-b0ef-81964f10071c",
+            "Value": {
+                "id": "f52d96dd-ca64-444c-8e01-2a6618b1d36a",
+                "resourcePath": "objects\/oOpenBox\/oOpenBox.yy",
                 "resourceType": "GMObject"
             }
         },
