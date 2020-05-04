@@ -10,7 +10,7 @@ port_y = room_height * 0.9 - boss_height;
 text_box_x = port_x + 0.5 * boss_width + 0.5 * text_box_width;
 text_box_y = port_y;
 
-text_color = c_red;
+text_color = c_white;
 text[0] = "Well, it seems like people coming in. I cannot wait to hear the sound of bones being broken...";
 text[1] = "Welcome to the world of FEAR...";
 

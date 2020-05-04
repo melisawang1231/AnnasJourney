@@ -1,3 +1,4 @@
+
 /// Draw Box
 draw_sprite(sTextbox, 1, text_box_x, text_box_y);
 // Draw Portrait

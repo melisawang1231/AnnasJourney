@@ -5,7 +5,7 @@ if(global.chooseMeth){
 	    room_goto(rIntro);
     }
     else {
-	    room_goto(rIntro1);
+	    room_goto(rLevel1_1);
     }
 }  
 else{

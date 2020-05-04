@@ -1,5 +1,5 @@
 /// @description draw
-
+draw_set_color(c_white);
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(20, 20, string("Score: ") + string(__dnd_score));
 draw_text(20, 40, string("Shield: ") + string(global.shield_num));

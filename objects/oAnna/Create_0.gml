@@ -28,9 +28,9 @@ global.attack = false;
 alarm[1] = 0;
 
 /// @description Anna movement
-mouse_left = 0;
-mouse_right = 0;
-mouse_jump = 0;
-left_right = 0; // -1 for left, 1 for right
-face = STAND;
-inAir_mouse = INAIR_NOT;
+///mouse_left = 0;
+///mouse_right = 0;
+///mouse_jump = 0;
+///left_right = 0; // -1 for left, 1 for right
+///face = STAND;
+///inAir_mouse = INAIR_NOT;

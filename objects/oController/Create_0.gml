@@ -45,4 +45,3 @@ switch(global.checkRoom){
 }
 
 
-

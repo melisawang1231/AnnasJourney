@@ -1,18 +1,35 @@
-if(!global.dialog and !global.mouseControl) {
-	/// @description Anna movement
-	var key_left = keyboard_check(ord("A"));
-	var key_right = keyboard_check(ord("D"));
-	var key_jump = keyboard_check_pressed(ord("W"));
-	var open_door = keyboard_check_pressed(ord("F"));
-
+if(!global.dialog) {
 	var left_n1_right_p1; // -1 for left, 1 for right
 	var facing = STAND;
+	if(!global.mouseControl) {
+		/// @description Anna movement
+		var key_left = keyboard_check(ord("A")) or keyboard_check(vk_left);
+		var key_right = keyboard_check(ord("D")) or keyboard_check(vk_right);
+		var key_jump = keyboard_check_pressed(ord("W")) or keyboard_check(vk_up);
+		var open_door = keyboard_check_pressed(ord("F"));
 
-	if(place_meeting(x, y, oDoor) && global.hasKey == 1 && open_door){
-		global.hasOpen = 1;
+		if(place_meeting(x, y, oDoor) && global.hasKey == 1 && open_door){
+			global.hasOpen = 1;
+		}
+
+		left_n1_right_p1 = key_right - key_left;
+	} else if(global.mouseControl){
+		if(x - 24 - mouse_x > 0) {
+			left_n1_right_p1 = -1; // -1 for left, 1 for right
+		} else if(x + 24 - mouse_x < 0) {
+			left_n1_right_p1 = 1;
+		} else {
+			left_n1_right_p1 = 0;
+		}
+		if(y - 40 - mouse_y > 0) {
+			key_jump = 1;
+		} else {
+			key_jump = 0;
+		}
+		if(place_meeting(x, y, oDoor) && global.hasKey == 1 && mouse_check_button_pressed(mb_right)){
+			global.hasOpen = 1;
+		}
 	}
-
-	left_n1_right_p1 = key_right - key_left;
 
 	if(left_n1_right_p1 == -1){
 		facing = LEFT;
@@ -104,82 +121,7 @@ if(!global.dialog and !global.mouseControl) {
 	if(global.shield_num < 0) {
 		global.shield_num = 0;
 	}
-} else if(!global.dialog and global.mouseControl) {
-	/// open door
-	if(place_meeting(x, y, oDoor) && mouse_check_button(mb_middle)){
-		global.hasOpen = 1;
-	}
-	
-	/// open box
-	if(place_meeting(x, y, oBox) && mouse_check_button(mb_middle)){
-		global.open = 1;
-	}
-
-	if(left_right == -1){
-		face = LEFT;
-		direct = LEFT;
-	} else if(left_right == 1){
-		face = RIGHT;
-		direct = RIGHT;
-	}
-	else{
-		face = STAND;
-		direct = RIGHT;
-	}
-
-	ys = ys + gr;
-	if( !place_free(x, y + ys) ){
-		while( place_free(x, y + sign(ys))){
-			y = y + sign(ys);
-		}
-		ys = 0;
-	} 
-	y = y + ys;
-
-	if(ys != 0){
-		inAir_mouse = INAIR;
-	} else{
-		inAir_mouse = INAIR_NOT;
-	}
-	
-	/// Now we have facing and inAir to determine the correct sprite
-	if(face == LEFT && inAir_mouse == INAIR){
-		sprite_index = sAnna_JumpLeft;
-	}
-	if(face == RIGHT && inAir_mouse == INAIR_NOT){
-		sprite_index = sAnna_WalkRight;
-	}
-	if(face == LEFT && inAir_mouse == INAIR_NOT){
-		sprite_index = sAnna_WalkLeft;
-	}
-	if(face == RIGHT && inAir_mouse == INAIR){
-		sprite_index = sAnna_JumpRight;
-	}
-	if(face == STAND && inAir_mouse == INAIR_NOT){
-		sprite_index = sAnna;
-	}
-	
-	/// boundary detection
-	if(y > room_height)
-		room_goto(rGameOver);
-
-	/// enemy slow attack timer setting
-	if(!place_meeting(x, y, oEnemy)) {
-		alarm[1] = 0;
-	}
-
-	/// shield effect
-	if(instance_exists(global.bossId)) {
-		if(global.shield_num > 0 && !global.protect && !global.attack) {
-			instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
-			global.protect = true;
-		}
-	}
-	if(global.shield_num < 0) {
-		global.shield_num = 0;
-	}
-	
-}
+} 
 	
 
 

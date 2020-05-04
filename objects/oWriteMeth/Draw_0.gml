@@ -1,4 +1,4 @@
-/// @description draw
+/// @description draw description
 
 draw_set_color(c_red);
 
@@ -18,7 +18,7 @@ if(!global.paused_){
 	    draw_text(450,260, string("Use Mouse"));
 
     } else{
-       draw_text(450,260, string("Use Keyboard"));
+        draw_text(450,260, string("Use Keyboard"));
 
     }
 	
