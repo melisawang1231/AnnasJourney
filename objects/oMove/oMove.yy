@@ -2,7 +2,7 @@
     "id": "050546b2-516a-42ff-8a70-4d72872ec46c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oMoveboard",
+    "name": "oMove",
     "eventList": [
         {
             "id": "aea2803a-0609-49c6-beed-717198233800",
