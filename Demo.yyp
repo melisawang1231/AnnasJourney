@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "01a25840-b2d3-4b33-be3b-7442f459328d",
+            "Value": {
+                "id": "216282d6-1ab2-4acb-886d-dcad3b0fa1d3",
+                "resourcePath": "sounds\/sndOpenDoor\/sndOpenDoor.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "02bb725e-edf6-483a-a8dd-521f220a4231",
             "Value": {
                 "id": "ffc8dfaa-1163-4ff9-967b-8f5e9d431a47",
@@ -311,14 +319,6 @@
             }
         },
         {
-            "Key": "3a2e8c85-2e54-409e-9d82-7f1839767194",
-            "Value": {
-                "id": "094607ce-d288-47e7-9c04-e69d69d729c8",
-                "resourcePath": "sprites\/sDialog3\/sDialog3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3fb0c47f-0d08-44f6-819b-7c67e67c9e5c",
             "Value": {
                 "id": "92d2d646-9297-48ac-992c-ba2ff466b538",
@@ -483,14 +483,6 @@
             "Value": {
                 "id": "e0be0c95-6177-4436-9060-fa5c169d13c9",
                 "resourcePath": "sprites\/sAnna_JumpRight\/sAnna_JumpRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5fe76396-1df3-426a-9af4-b4ea8d422392",
-            "Value": {
-                "id": "72fe19b1-9d72-4cf3-b7a5-38e9b2f3bc64",
-                "resourcePath": "sprites\/sDialog4\/sDialog4.yy",
                 "resourceType": "GMSprite"
             }
         },

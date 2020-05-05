@@ -15,6 +15,11 @@ global.randomSelect[2] = 1;     // BOSS
 global.randomSelect[3] = 1;     // key
 
 switch(global.checkRoom){
+	case "rLevel1_5":
+		global.randomSelect[0] -= 1;
+		global.randomSelect[1] -= 1; 
+		break;
+		
 	case "rLevel1": 
 		break;
 	

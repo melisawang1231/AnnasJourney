@@ -10,6 +10,7 @@ if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 
 		if(place_meeting(x, y, oDoor) && global.hasKey == 1 && open_door){
 			global.hasOpen = 1;
+			audio_play_sound(sndOpenDoor, 1, false);
 		}
 
 		left_n1_right_p1 = key_right - key_left;
