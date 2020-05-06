@@ -41,7 +41,7 @@ else {
 				room_goto(rLevel5);
 				break;				
 			case 11:
-				game_end();
+				room_goto(rTitle);
 				break;	
 		} 
 	}else {

@@ -74,7 +74,7 @@ if(keyboard_check_pressed(vk_space)) {
 				break;	
 		
 			case 11:
-				game_end();
+				room_goto(rTitle);
 				break;
 		}
 	} else {
