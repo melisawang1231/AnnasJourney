@@ -1,7 +1,6 @@
 /// @description dialog and fire
 draw_set_colour(c_red);
 draw_text(x - 100, y - 20, string("Enemies!"));
-draw_text(120, 100, string("Keep HP higher than 0"));
 draw_rectangle(20, 100, 115, 120, true);
 draw_sprite_ext(sEnemy, sEnemy, x, y, 0.5, 0.5, 0, c_white, 1);
 

@@ -1,6 +1,7 @@
 /// @description Inits
 hp_Anna = 6;
-
+// make Anna always show in front of other objects
+depth = 0;
 // Gravity on y-axis. ys change/frame
 gr = 0.5;
 // Speed on y-axis. y-axis component of the character's movement

@@ -123,7 +123,7 @@ if(!global.dialog || (global.dialog && global.checkRoom == "rLevel1_2")) {
 	/// shield effect
 	if(instance_exists(global.bossId)) {
 		if(global.shield_num > 0 && !global.protect && !global.attack) {
-			instance_create_depth(oAnna.x, oAnna.y, 0, oShield);
+			instance_create_depth(oAnna.x, oAnna.y, -1, oShield);
 			global.protect = true;
 		}
 	}
