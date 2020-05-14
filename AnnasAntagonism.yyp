@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2126d2e7-c580-4376-896a-5cd33fd27145",
+            "Value": {
+                "id": "48a1076a-e597-4677-8861-115c5f7ed38d",
+                "resourcePath": "sprites\/sBulletLeft\/sBulletLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24ab883d-f076-41c9-9c13-f8359ebbfd18",
             "Value": {
                 "id": "268d9ae0-2a21-4876-88cd-849b651f1ccf",
